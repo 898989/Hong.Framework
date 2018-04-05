@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script type="text/javascript" src="http://1.rc.xiniu.com/js/jq/jqueryV173.js"></script>
+<script type="text/javascript" src="~/js/socket.js"></script>
+<script type="text/javascript">
+    var socket = null;
+    $(function () {
+        $("#btnConnect").on("click", function () {
+            socket.connect();
+        });
+
+        $("#btnDisconnect").on("click", function () {
+            socket.close();
+        });
+
+        $("#btnSend").on("click", function () {
+            socket.send($("#txtInput").val());
+        });
+
+        var config = {
+            callBak: function (data) {
+                $("#messageSpan").text(data.msg);
+            },
+            concurrent: false,
+            heartCall: function () {
+                $("#heartMessage").text(new Date());
+            },
+            pageActive: function () {
+                $("#events").append("<div>页面激活</div>");
+            },
+            pageHidden: function () {
+                $("#events").append("<div>页面隐藏</div>");
+            }
+        };
+
+        socket = new Socket(config);
+    });
+</script>
+<fieldset>
+    
+    <input type="button" value="Connect" id="btnConnect" />
+    <input type="button" value="DisConnect" id="btnDisconnect" />
+    <hr />
+    <input type="text" id="txtInput" />
+    <input type="button" value="Send" id="btnSend" />
+
+    <br />
+    <div>
+        心跳:<span id="heartMessage"></span>
+    </div>
+    <div>
+        消息:<span id="messageSpan" style="color:red;"></span>
+    </div>
+    <div id="events"></div>
+</fieldset>

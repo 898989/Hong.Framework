@@ -1,0 +1,22 @@
+﻿
+
+<p>API 请求测试</p>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    function get() {
+        $.ajax({
+            url: "http://localhost:64887/api/values/get",
+            type:"GET",
+            data: {},
+            function (data) {
+                alert(data); 
+            }, function(msg) {
+                alter(msg);
+            }
+        });
+    }
+    $(function () {
+        get();
+    });
+    
+</script>

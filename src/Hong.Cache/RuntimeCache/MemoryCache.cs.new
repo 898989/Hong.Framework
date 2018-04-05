@@ -1,0 +1,208 @@
+﻿using System;
+using System.Collections.Concurrent;
+using System.Linq;
+using Hong.Cache.Core;
+using static Hong.Common.Extendsion.Guard;
+using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
+using Microsoft.Extensions.Caching.Memory;
+
+namespace Hong.Cache.RuntimeCache
+{
+    public class MemoryCache<TValue> : Cache<TValue>
+    {
+        MemoryCache _cache = null;
+        readonly MemoryCacheOptions _options = null;
+        //private ConcurrentDictionary<string, CacheItem<TValue>> _cache = new ConcurrentDictionary<string, CacheItem<TValue>>();
+        readonly ILogger log = null;
+
+        internal MemoryCache(MemoryCacheConfiguration configuration, ILoggerFactory loggerFactory = null)
+        {
+            log = loggerFactory?.CreateLogger("MemoryCache");
+            _options = new MemoryCacheOptions()
+            {
+                SizeLimit = configuration.MaxSize
+            };
+
+            _cache = new MemoryCache(_options);
+        }
+
+        public override IEnumerable<string> RegionHasKeys(string region)
+        {
+            //var key = region + RegionKeyDecollator;
+
+            //foreach (var item in _cache.Where(p => p.Key.StartsWith(key, StringComparison.Ordinal)))
+            //{
+            //    yield return item.Key;
+            //}
+            return new List<string>();
+        }
+
+        public override async System.Threading.Tasks.Task<bool> TryClear()=>
+            await new System.Threading.Tasks.Task<bool>(() =>
+            {
+                _cache.Dispose();
+                _cache = new MemoryCache(_options);
+                return true;
+            });
+
+        public override async System.Threading.Tasks.Task<bool> TryClear(string region) =>
+            await new System.Threading.Tasks.Task<bool>(() =>
+            {
+                foreach (var key in RegionHasKeys(region))
+                {
+                    _cache.Remove(key);
+                }
+
+                return true;
+            });
+
+        public override TValue TryGet(string key, string region)
+        {
+            if (!string.IsNullOrWhiteSpace(region))
+            {
+                key = BuildKey(key, region);
+            }
+
+            if (_cache.TryGetValue(key, out CacheItem<TValue> cacheItem))
+            {
+                return cacheItem.Value;
+            }
+
+            return default(TValue);
+        }
+
+        public override bool TryRemove(string key, string region)
+        {
+            NotNullOrEmpty(key, nameof(key));
+
+            if (!string.IsNullOrWhiteSpace(region))
+            {
+                key = BuildKey(key, region);
+            }
+
+            _cache.Remove(key);
+            return true;
+        }
+
+        public override short TrySet(string key, string region, TValue value, long version, ExpirationMode expirationMode = ExpirationMode.None, int cacheTimeSpan = 0)
+        {
+            if (!string.IsNullOrWhiteSpace(region))
+            {
+                key = BuildKey(key, region);
+            }
+
+            var entryOptions = new MemoryCacheEntryOptions();
+            if (expirationMode == ExpirationMode.Absolute)
+            {
+                entryOptions.SetAbsoluteExpiration(new TimeSpan(0, 0, cacheTimeSpan));
+            }
+            else
+            {
+                entryOptions.SetSlidingExpiration(new TimeSpan(0, 0, cacheTimeSpan));
+            }
+
+            var cacheItem = new CacheItem<TValue>(key, region, value, version);
+            _cache.Set(key, cacheItem, entryOptions);
+
+            return 0;
+        }
+
+        public override bool TryAdd(string key, string region, TValue value, long version, ExpirationMode expirationMode = ExpirationMode.None, int cacheTimeSpan = 0)
+        {
+            if (!string.IsNullOrWhiteSpace(region))
+            {
+                key = BuildKey(key, region);
+            }
+
+            var cacheItem = Get(key);
+            if (cacheItem != null)
+            {
+                return false;
+            }
+
+            var entryOptions = new MemoryCacheEntryOptions();
+            if (expirationMode == ExpirationMode.Absolute)
+            {
+                entryOptions.SetAbsoluteExpiration(new TimeSpan(0, 0, cacheTimeSpan));
+            }
+            else
+            {
+                entryOptions.SetSlidingExpiration(new TimeSpan(0, 0, cacheTimeSpan));
+            }
+            var item = new CacheItem<TValue>(key, region, value, version);
+
+            _cache.Set(key, item, entryOptions);
+
+            return true;
+        }
+
+        public override bool TryExpire(string key, string region, ExpirationMode expirationMode, int cacheTimeSpan)
+        {
+            if (!string.IsNullOrWhiteSpace(region))
+            {
+                key = BuildKey(key, region);
+            }
+
+            var cacheItem = Get(key);
+            if (cacheItem == null)
+            {
+                return false;
+            }
+
+            var cacheEntryOptions = new MemoryCacheEntryOptions();
+            if (expirationMode == ExpirationMode.Absolute)
+            {
+                cacheEntryOptions.SetAbsoluteExpiration(new TimeSpan(0, 0, cacheTimeSpan));
+            }
+            else
+            {
+                cacheEntryOptions.SetSlidingExpiration(new TimeSpan(0, 0, cacheTimeSpan));
+            }
+            _cache.Set(key, cacheItem);         
+
+            return true;
+        }
+
+        public override short TryUpdate(string key, string region, TValue value, long version)
+        {
+            if (!string.IsNullOrWhiteSpace(region))
+            {
+                key = BuildKey(key, region);
+            }
+
+            var cacheItem = Get(key);
+            if (cacheItem == null) return 0;
+
+            if (System.Threading.Monitor.TryEnter(cacheItem, 5))
+            {
+                if (version <= cacheItem.Version)
+                {
+                    System.Threading.Monitor.Exit(cacheItem);
+                    return -1;
+                }
+
+                cacheItem.Reset(value, version);
+                System.Threading.Monitor.Exit(cacheItem);
+
+                return 1;
+            }
+            else
+            {
+                log?.LogError("#Method =>TryUpdate =>Monitor.TryEnter", "等待超时");
+            }
+
+            return 0;
+        }
+
+        CacheItem<TValue> Get(string key)
+        {
+            if (_cache.TryGetValue(key, out CacheItem<TValue> cacheItem))
+            {
+                return cacheItem;
+            }
+
+            return null;
+        }
+    }
+}

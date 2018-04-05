@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Hong.DAO": "1.0.0-*",
+    "Hong.Service": "1.0.0-*",
+    "NETStandard.Library": "1.6.1-preview1-24530-04"
+  },
+
+  "frameworks": {
+    "net451": {},
+    "netstandard1.6": {}
+  }
+}
