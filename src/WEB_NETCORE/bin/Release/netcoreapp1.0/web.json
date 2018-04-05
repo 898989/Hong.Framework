@@ -1,0 +1,45 @@
+﻿{
+  "database": {
+    "name": "mysql",
+    "connection": "database=hong.example;server=192.168.1.108;uid=root;password=111111;pooling=true;charset=utf8;port=3306"
+  },
+  "cache": {
+    "rabbitmq": {
+      "publish": {
+        "host": "192.168.1.109",
+        "port": 5672,
+        "userName": "zhanghong",
+        "password": "zhanghong@2016",
+        "exchange": "cachePlushExchange"
+      },
+      "subscribe": {
+        "host": "192.168.1.109",
+        "port": 5672,
+        "userName": "zhanghong",
+        "password": "zhanghong@2016",
+        "queueKey": "cachesubscribeQueue_1"
+      }
+    },
+    "local": {
+      "name": "memory",
+      "enabled": "true",
+      "handle": [{
+          "key": "memory",
+          "type": "Hong.Cache.RuntimeCache.MemoryCache`1,Hong.Cache"
+        }]
+    },
+    "remote": {
+      "name": "remote",
+      "enabled": "false",
+      "handle": [{
+          "key": "redis",
+          "type": "Hong.Cache.Redis.RedisCache`1,Hong.Cache",
+          "tryCount": 1,
+          "host": "192.168.1.106",
+          "port": 6379,
+          "allowAdmin": true,
+          "connectionTimeout": 10
+        }]
+    }
+  }
+}

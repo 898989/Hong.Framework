@@ -1,0 +1,7 @@
+E:\Workspaces\Visual Studio\Web_NETCORE\test\Hong.MQ.Test\obj\Release\Hong.MQ.Test.csprojResolveAssemblyReference.cache
+E:\Workspaces\Visual Studio\Web_NETCORE\test\Hong.MQ.Test\obj\Release\Hong.MQ.Test.Properties.Resources.resources
+E:\Workspaces\Visual Studio\Web_NETCORE\test\Hong.MQ.Test\obj\Release\Hong.MQ.Test.RabbitMQ.Publish.resources
+E:\Workspaces\Visual Studio\Web_NETCORE\test\Hong.MQ.Test\obj\Release\Hong.MQ.Test.RabbitMQ.Subscribe.resources
+E:\Workspaces\Visual Studio\Web_NETCORE\test\Hong.MQ.Test\obj\Release\Hong.MQ.Test.csproj.GenerateResource.Cache
+E:\Workspaces\Visual Studio\Web_NETCORE\test\Hong.MQ.Test\obj\Release\Hong.MQ.Test.Publish.resources
+E:\Workspaces\Visual Studio\Web_NETCORE\test\Hong.MQ.Test\obj\Release\Hong.MQ.Test.Subscribe.resources

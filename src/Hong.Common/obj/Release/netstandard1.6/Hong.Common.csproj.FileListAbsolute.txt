@@ -1,0 +1,7 @@
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\bin\Release\netstandard1.6\Hong.Common.deps.json
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\bin\Release\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\bin\Release\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Release\netstandard1.6\Hong.Common.AssemblyInfo.cs
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Release\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Release\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Release\netstandard1.6\Hong.Common.csprojResolveAssemblyReference.cache

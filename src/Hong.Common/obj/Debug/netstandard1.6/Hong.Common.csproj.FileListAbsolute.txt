@@ -1,0 +1,15 @@
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Common\bin\Debug\netstandard1.6\Hong.Common.deps.json
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Common\bin\Debug\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Common\bin\Debug\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.AssemblyInfo.cs
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\bin\Debug\netstandard1.6\Hong.Common.deps.json
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\bin\Debug\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\bin\Debug\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.AssemblyInfo.cs
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.csprojResolveAssemblyReference.cache
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.csproj.CoreCompileInputs.cache
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Common\obj\Debug\netstandard1.6\Hong.Common.AssemblyInfoInputs.cache

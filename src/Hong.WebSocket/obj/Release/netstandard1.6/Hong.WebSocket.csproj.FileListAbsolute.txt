@@ -1,0 +1,9 @@
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\bin\Release\netstandard1.6\Hong.WebSocket.deps.json
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\bin\Release\netstandard1.6\Hong.WebSocket.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\bin\Release\netstandard1.6\Hong.WebSocket.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\bin\Release\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\bin\Release\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\obj\Release\netstandard1.6\Hong.WebSocket.csprojResolveAssemblyReference.cache
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\obj\Release\netstandard1.6\Hong.WebSocket.AssemblyInfo.cs
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\obj\Release\netstandard1.6\Hong.WebSocket.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.WebSocket\obj\Release\netstandard1.6\Hong.WebSocket.pdb

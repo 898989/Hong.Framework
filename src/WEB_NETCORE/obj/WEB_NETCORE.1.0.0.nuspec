@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WEB_NETCORE</id>
+    <version>1.0.0</version>
+    <authors>WEB_NETCORE</authors>
+    <owners>WEB_NETCORE</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.1">
+        <dependency id="Hong.Mvc" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Hong.Cache" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Hong.Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Hong.Service" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="BundlerMinifier.Core" version="2.4.337" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Server.Kestrel" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.Platforms" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Diagnostics" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Server.IISIntegration" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.BrowserLink" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.ConfigurationExtensions" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.StaticFiles" version="1.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp1.1/wwwroot/css/site.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/site.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/favicon.ico" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/banner1.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/banner2.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/banner3.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/banner4.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/site.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/site.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/socket.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/bootstrap.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/npm.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/LICENSE" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/additional-methods.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/jquery.validate.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/LICENSE.md" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.min.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/LICENSE.txt" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/_references.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/web.config" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Home/About.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Home/Contact.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Home/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/Error.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_Layout.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Socket/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/_ViewImports.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/_ViewStart.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/appsettings.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/bundleconfig.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Properties/launchSettings.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/web.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\bin\Debug\netcoreapp1.1\WEB_NETCORE.runtimeconfig.json" target="lib\netcoreapp1.1\WEB_NETCORE.runtimeconfig.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\bin\Debug\netcoreapp1.1\WEB_NETCORE.dll" target="lib\netcoreapp1.1\WEB_NETCORE.dll" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\css\site.css" target="content\wwwroot\css\site.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\css\site.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\site.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\css\site.min.css" target="content\wwwroot\css\site.min.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\css\site.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\site.min.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\favicon.ico" target="content\wwwroot\favicon.ico" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\favicon.ico" target="contentFiles\any\netcoreapp1.1\wwwroot\favicon.ico" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\images\banner1.svg" target="content\wwwroot\images\banner1.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\images\banner1.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\banner1.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\images\banner2.svg" target="content\wwwroot\images\banner2.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\images\banner2.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\banner2.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\images\banner3.svg" target="content\wwwroot\images\banner3.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\images\banner3.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\banner3.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\images\banner4.svg" target="content\wwwroot\images\banner4.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\images\banner4.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\banner4.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\js\site.js" target="content\wwwroot\js\site.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\js\site.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\site.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\js\site.min.js" target="content\wwwroot\js\site.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\js\site.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\site.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\js\socket.js" target="content\wwwroot\js\socket.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\js\socket.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\socket.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\.bower.json" target="content\wwwroot\lib\bootstrap\.bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\.bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\js\npm.js" target="content\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\dist\js\npm.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\LICENSE" target="content\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\bootstrap\LICENSE" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" target="content\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\.bower.json" target="content\wwwroot\lib\jquery-validation\.bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\.bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\LICENSE.md" target="content\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery-validation\LICENSE.md" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\.bower.json" target="content\wwwroot\lib\jquery\.bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\.bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\dist\jquery.js" target="content\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\dist\jquery.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\dist\jquery.min.js" target="content\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\dist\jquery.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\dist\jquery.min.map" target="content\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\dist\jquery.min.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\LICENSE.txt" target="content\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\lib\jquery\LICENSE.txt" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\_references.js" target="content\wwwroot\_references.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\wwwroot\_references.js" target="contentFiles\any\netcoreapp1.1\wwwroot\_references.js" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\web.config" target="content\web.config" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\web.config" target="contentFiles\any\netcoreapp1.1\web.config" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Home\About.cshtml" target="content\Views\Home\About.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Home\About.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Home\About.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Home\Contact.cshtml" target="content\Views\Home\Contact.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Home\Contact.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Home\Contact.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Home\Index.cshtml" target="content\Views\Home\Index.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Home\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Home\Index.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Shared\Error.cshtml" target="content\Views\Shared\Error.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Shared\Error.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\Error.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Shared\_Layout.cshtml" target="content\Views\Shared\_Layout.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Shared\_Layout.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_Layout.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Socket\Index.cshtml" target="content\Views\Socket\Index.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\Socket\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Socket\Index.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\_ViewImports.cshtml" target="content\Views\_ViewImports.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\_ViewImports.cshtml" target="contentFiles\any\netcoreapp1.1\Views\_ViewImports.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\_ViewStart.cshtml" target="content\Views\_ViewStart.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Views\_ViewStart.cshtml" target="contentFiles\any\netcoreapp1.1\Views\_ViewStart.cshtml" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\appsettings.json" target="content\appsettings.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\appsettings.json" target="contentFiles\any\netcoreapp1.1\appsettings.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\bower.json" target="content\bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\bower.json" target="contentFiles\any\netcoreapp1.1\bower.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\bundleconfig.json" target="content\bundleconfig.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\bundleconfig.json" target="contentFiles\any\netcoreapp1.1\bundleconfig.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\Properties\launchSettings.json" target="contentFiles\any\netcoreapp1.1\Properties\launchSettings.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\web.json" target="content\web.json" />
+    <file src="E:\Workspaces\Visual Studio\Hong.Framework\src\WEB_NETCORE\web.json" target="contentFiles\any\netcoreapp1.1\web.json" />
+  </files>
+</package>

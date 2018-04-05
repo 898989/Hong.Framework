@@ -1,0 +1,4 @@
+E:\Workspaces\Visual Studio\Hong.Framework\test\Hong.Base.Web\obj\Debug\netcoreapp2.0\Hong.Base.Web.csprojResolveAssemblyReference.cache
+E:\Workspaces\Visual Studio\Hong.Framework\test\Hong.Base.Web\obj\Debug\netcoreapp2.0\Hong.Base.Web.csproj.CoreCompileInputs.cache
+E:\Workspaces\Visual Studio\Hong.Framework\test\Hong.Base.Web\obj\Debug\netcoreapp2.0\Hong.Base.Web.AssemblyInfoInputs.cache
+E:\Workspaces\Visual Studio\Hong.Framework\test\Hong.Base.Web\obj\Debug\netcoreapp2.0\Hong.Base.Web.AssemblyInfo.cs

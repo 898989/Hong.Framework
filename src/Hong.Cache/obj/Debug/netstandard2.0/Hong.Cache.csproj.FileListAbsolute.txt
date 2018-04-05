@@ -1,0 +1,17 @@
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.csprojResolveAssemblyReference.cache
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.csproj.CoreCompileInputs.cache
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.AssemblyInfoInputs.cache
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.AssemblyInfo.cs
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.csprojResolveAssemblyReference.cache
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.csproj.CoreCompileInputs.cache
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.AssemblyInfoInputs.cache
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.AssemblyInfo.cs
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\bin\Debug\netstandard2.0\Hong.Cache.deps.json
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\bin\Debug\netstandard2.0\Hong.Cache.dll
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\bin\Debug\netstandard2.0\Hong.Cache.pdb
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\bin\Debug\netstandard2.0\Hong.Common.dll
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\bin\Debug\netstandard2.0\Hong.MQ.dll
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\bin\Debug\netstandard2.0\Hong.MQ.pdb
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\bin\Debug\netstandard2.0\Hong.Common.pdb
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.dll
+G:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Cache\obj\Debug\netstandard2.0\Hong.Cache.pdb

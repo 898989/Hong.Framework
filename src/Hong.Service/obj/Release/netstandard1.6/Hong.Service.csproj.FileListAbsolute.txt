@@ -1,0 +1,17 @@
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Service.deps.json
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Service.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Service.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Cache.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.DAO.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Model.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.MQ.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Cache.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.Model.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.DAO.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\bin\Release\netstandard1.6\Hong.MQ.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\obj\Release\netstandard1.6\Hong.Service.csprojResolveAssemblyReference.cache
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\obj\Release\netstandard1.6\Hong.Service.AssemblyInfo.cs
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\obj\Release\netstandard1.6\Hong.Service.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Service\obj\Release\netstandard1.6\Hong.Service.pdb

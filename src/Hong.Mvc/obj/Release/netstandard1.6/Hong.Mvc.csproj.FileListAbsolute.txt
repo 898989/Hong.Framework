@@ -1,0 +1,17 @@
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.Mvc.deps.json
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.Mvc.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.Mvc.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.Cache.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.Common.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.DAO.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.MQ.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.WebSocket.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.Cache.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.Common.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.DAO.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.WebSocket.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\bin\Release\netstandard1.6\Hong.MQ.pdb
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\obj\Release\netstandard1.6\Hong.Mvc.csprojResolveAssemblyReference.cache
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\obj\Release\netstandard1.6\Hong.Mvc.AssemblyInfo.cs
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\obj\Release\netstandard1.6\Hong.Mvc.dll
+E:\Workspaces\Visual Studio\Hong.Framework\src\Hong.Mvc\obj\Release\netstandard1.6\Hong.Mvc.pdb

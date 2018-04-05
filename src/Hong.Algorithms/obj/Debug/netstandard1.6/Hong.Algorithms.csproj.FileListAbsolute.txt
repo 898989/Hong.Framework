@@ -1,0 +1,6 @@
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Algorithms\bin\Debug\netstandard1.6\Hong.Algorithms.deps.json
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Algorithms\bin\Debug\netstandard1.6\Hong.Algorithms.dll
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Algorithms\bin\Debug\netstandard1.6\Hong.Algorithms.pdb
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Algorithms\obj\Debug\netstandard1.6\Hong.Algorithms.AssemblyInfo.cs
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Algorithms\obj\Debug\netstandard1.6\Hong.Algorithms.dll
+E:\Workspaces\Visual Studio\WEB_NETCORE\src\Hong.Algorithms\obj\Debug\netstandard1.6\Hong.Algorithms.pdb
